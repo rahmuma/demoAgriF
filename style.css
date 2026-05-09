@@ -1,0 +1,39 @@
+.hero{
+    height:500px;
+    background:url('./src/img/bg1.jpg') center/cover;
+}
+
+/* features */
+
+.card{
+    transition:0.3s;
+}
+.card:hover{
+    transform:scale(1.05);
+}
+.feature-card {
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* cropDetails */
+.imgSizePotato{
+   object-fit: cover;
+}
+
+
+#cropTabs .nav-link {
+    color: #198754;
+    border: 1px solid #198754;
+    margin: 5px;
+}
+
+#cropTabs .nav-link.active {
+    background-color: #198754;
+    color: white;
+}
